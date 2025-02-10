@@ -30,8 +30,8 @@ const ProductDetails = () => {
   if (error) return <div className="text-4xl">Error fetching product</div>;
 
   return (
-    <div className="p-4">
-      <div className="max-w-4xl mx-auto">
+    <div className="">
+      <div className="max-w-3xl mx-auto">
         <img
           src={product.image}
           alt={product.title}
